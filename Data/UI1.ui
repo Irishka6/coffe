@@ -6,35 +6,58 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>894</width>
-    <height>742</height>
+    <width>800</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QTableWidget" name="tableWidget">
+   <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>20</y>
-      <width>861</width>
-      <height>451</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>480</y>
-      <width>231</width>
-      <height>61</height>
+      <x>0</x>
+      <y>90</y>
+      <width>781</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Добавить или изменить</string>
+     <string>Сохранить изменения</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>130</y>
+      <width>781</width>
+      <height>391</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>781</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>781</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Найти</string>
     </property>
    </widget>
   </widget>
@@ -43,7 +66,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>894</width>
+     <width>800</width>
      <height>26</height>
     </rect>
    </property>
